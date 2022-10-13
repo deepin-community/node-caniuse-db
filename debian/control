@@ -1,0 +1,24 @@
+Source: node-caniuse-db
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Section: javascript
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+ , nodejs
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/js-team/node-caniuse-db
+Vcs-Git: https://salsa.debian.org/js-team/node-caniuse-db.git
+Homepage: https://github.com/Fyrd/caniuse
+Rules-Requires-Root: no
+
+Package: node-caniuse-db
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: Raw browser/feature support data from caniuse.com
+ This module contains raw data from the caniuse.com support tables.
+ .
+ This module provides access to the site's data for other projects. For this
+ use the data.json file which includes all support data.
+ .
+ Node.js is an event-based server-side JavaScript engine.

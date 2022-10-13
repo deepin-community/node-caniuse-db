@@ -1,0 +1,164 @@
+node-caniuse-db (1.0.30001256-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.0
+  * New upstream version 1.0.30001256
+
+ -- Yadd <yadd@debian.org>  Sun, 12 Sep 2021 09:09:34 +0200
+
+node-caniuse-db (1.0.30001228-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001228
+
+ -- Sunday Nkwuda <scletus40@yahoo.com>  Mon, 24 May 2021 06:00:20 +0000
+
+node-caniuse-db (1.0.30001218-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001218
+
+ -- Saakshi Jain <saakshi7012@gmail.com>  Tue, 27 Apr 2021 19:35:03 +0530
+
+node-caniuse-db (1.0.30001181-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001181
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 01 Feb 2021 09:48:15 +0100
+
+node-caniuse-db (1.0.30001179-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001179
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 23 Jan 2021 07:30:24 +0100
+
+node-caniuse-db (1.0.30001177-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001177
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 14 Jan 2021 16:10:37 +0100
+
+node-caniuse-db (1.0.30001173-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001173
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 07 Jan 2021 09:01:25 +0100
+
+node-caniuse-db (1.0.30001171-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001171
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 03 Jan 2021 19:55:53 +0100
+
+node-caniuse-db (1.0.30001170-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001170
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 20 Dec 2020 09:03:42 +0100
+
+node-caniuse-db (1.0.30001166-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001166
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 15 Dec 2020 08:06:52 +0100
+
+node-caniuse-db (1.0.30001165-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001165
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 08 Dec 2020 22:01:45 +0100
+
+node-caniuse-db (1.0.30001162-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001162
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 30 Nov 2020 10:35:40 +0100
+
+node-caniuse-db (1.0.30001159-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.1
+  * New upstream version 1.0.30001159
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 21 Nov 2020 18:52:01 +0100
+
+node-caniuse-db (1.0.30001157-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001157
+  * Apply multi-arch hints
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 12 Nov 2020 13:32:19 +0100
+
+node-caniuse-db (1.0.30001154-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001154
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 02 Nov 2020 05:54:37 +0100
+
+node-caniuse-db (1.0.30001151-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 1.0.30001151
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 25 Oct 2020 08:07:31 +0100
+
+node-caniuse-db (1.0.30001148-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * New upstream version 1.0.30001148
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 12 Oct 2020 10:04:46 +0200
+
+node-caniuse-db (1.0.30001048-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Utkarsh Gupta ]
+  * New upstream version 1.0.30000929
+  * Update URL is Vcs-* field
+  * Update d/copyright
+  * Update d/rules
+  * Add d/upstream/metadata
+
+  [ Debian Janitor ]
+  * Update standards version to 4.4.1, no changes needed.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Move to /usr/share/nodejs
+  * Add skippable autpkgtest to avoid auto-detection
+  * New upstream version 1.0.30001048
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Update debian/watch to use npm registry
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 27 Apr 2020 13:36:48 +0200
+
+node-caniuse-db (1.0.30000927-1) unstable; urgency=medium
+
+  * New upstream version 1.0.30000927
+  * Bump Standards-Version to 4.3.0 (no changes needed)
+  * Bump debhelper compatibility level to 11
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 04 Jan 2019 11:23:53 +0530
+
+node-caniuse-db (1.0.30000743-1) unstable; urgency=low
+
+  * Initial release (Closes: #877964)
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 08 Oct 2017 09:09:51 +0530
