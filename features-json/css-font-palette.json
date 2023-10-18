@@ -1,12 +1,24 @@
 {
-  "title":"@font-face metrics overrides",
-  "description":"Default font metrics overriding: the ascent-override, descent-override and line-gap-override descriptors",
-  "spec":"https://drafts.csswg.org/css-fonts-4/#font-metrics-override-desc",
-  "status":"unoff",
+  "title":"CSS font-palette",
+  "description":"The font-palette CSS property allows selecting a palette from a color font. In combination with the `@font-palette-values` at-rule, custom palettes can be defined.",
+  "spec":"https://www.w3.org/TR/css-fonts-4/#propdef-font-palette",
+  "status":"wd",
   "links":[
     {
-      "url":"https://docs.google.com/document/d/1PW-5ML5hOZw7GczOargelPo6_8Zkuk2DXtgfOtJ59Eo/edit",
-      "title":"New @font-face descriptors for overriding font metrics"
+      "url":"https://yisibl.github.io/color-font-palette/",
+      "title":"Demo"
+    },
+    {
+      "url":"https://github.com/drott/csswg-drafts/blob/paletteExplainer/css-fonts-4/palette-explainer.md",
+      "title":"Explainer"
+    },
+    {
+      "url":"https://webkit.org/blog/12445/new-webkit-features-in-safari-15-4/#typography",
+      "title":"Safari 15.4 Beta Release Notes"
+    },
+    {
+      "url":"https://bugzilla.mozilla.org/show_bug.cgi?id=1461588",
+      "title":"Firefox support bug"
     }
   ],
   "bugs":[
@@ -46,7 +58,31 @@
       "90":"n",
       "91":"n",
       "92":"n",
-      "93":"n"
+      "93":"n",
+      "94":"n",
+      "95":"n",
+      "96":"n",
+      "97":"n",
+      "98":"n",
+      "99":"n",
+      "100":"n",
+      "101":"n",
+      "102":"n",
+      "103":"n",
+      "104":"n",
+      "105":"y",
+      "106":"y",
+      "107":"y",
+      "108":"y",
+      "109":"y",
+      "110":"y",
+      "111":"y",
+      "112":"y",
+      "113":"y",
+      "114":"y",
+      "115":"y",
+      "116":"y",
+      "117":"y"
     },
     "firefox":{
       "2":"n",
@@ -143,7 +179,34 @@
       "91":"n",
       "92":"n",
       "93":"n",
-      "94":"n"
+      "94":"n",
+      "95":"n",
+      "96":"n",
+      "97":"n",
+      "98":"n",
+      "99":"n",
+      "100":"n",
+      "101":"n",
+      "102":"n",
+      "103":"n",
+      "104":"n",
+      "105":"n",
+      "106":"n",
+      "107":"y",
+      "108":"y",
+      "109":"y",
+      "110":"y",
+      "111":"y",
+      "112":"y",
+      "113":"y",
+      "114":"y",
+      "115":"y",
+      "116":"y",
+      "117":"y",
+      "118":"y",
+      "119":"y",
+      "120":"y",
+      "121":"y"
     },
     "chrome":{
       "4":"n",
@@ -227,17 +290,41 @@
       "83":"n",
       "84":"n",
       "85":"n",
-      "86":"n d #1",
-      "87":"y",
-      "88":"y",
-      "89":"y",
-      "90":"y",
-      "91":"y",
-      "92":"y",
-      "93":"y",
-      "94":"y",
-      "95":"y",
-      "96":"y"
+      "86":"n",
+      "87":"n",
+      "88":"n",
+      "89":"n",
+      "90":"n",
+      "91":"n",
+      "92":"n",
+      "93":"n",
+      "94":"n",
+      "95":"n",
+      "96":"n",
+      "97":"n",
+      "98":"n",
+      "99":"n",
+      "100":"n",
+      "101":"y",
+      "102":"y",
+      "103":"y",
+      "104":"y",
+      "105":"y",
+      "106":"y",
+      "107":"y",
+      "108":"y",
+      "109":"y",
+      "110":"y",
+      "111":"y",
+      "112":"y",
+      "113":"y",
+      "114":"y",
+      "115":"y",
+      "116":"y",
+      "117":"y",
+      "118":"y",
+      "119":"y",
+      "120":"y"
     },
     "safari":{
       "3.1":"n",
@@ -263,7 +350,21 @@
       "14":"n",
       "14.1":"n",
       "15":"n",
-      "TP":"n"
+      "15.1":"n",
+      "15.2-15.3":"n",
+      "15.4":"y",
+      "15.5":"y",
+      "15.6":"y",
+      "16.0":"y",
+      "16.1":"y",
+      "16.2":"y",
+      "16.3":"y",
+      "16.4":"y",
+      "16.5":"y",
+      "16.6":"y",
+      "17.0":"y",
+      "17.1":"y",
+      "TP":"y"
     },
     "opera":{
       "9":"n",
@@ -338,7 +439,32 @@
       "75":"n",
       "76":"n",
       "77":"n",
-      "78":"n"
+      "78":"n",
+      "79":"n",
+      "80":"n",
+      "81":"n",
+      "82":"n",
+      "83":"n",
+      "84":"n",
+      "85":"n",
+      "86":"n",
+      "87":"y",
+      "88":"y",
+      "89":"y",
+      "90":"y",
+      "91":"y",
+      "92":"y",
+      "93":"y",
+      "94":"y",
+      "95":"y",
+      "96":"y",
+      "97":"y",
+      "98":"y",
+      "99":"y",
+      "100":"y",
+      "101":"y",
+      "102":"y",
+      "103":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -356,13 +482,27 @@
       "11.0-11.2":"n",
       "11.3-11.4":"n",
       "12.0-12.1":"n",
-      "12.2-12.4":"n",
+      "12.2-12.5":"n",
       "13.0-13.1":"n",
       "13.2":"n",
       "13.3":"n",
       "13.4-13.7":"n",
       "14.0-14.4":"n",
-      "14.5-14.7":"n"
+      "14.5-14.8":"n",
+      "15.0-15.1":"n",
+      "15.2-15.3":"n",
+      "15.4":"y",
+      "15.5":"y",
+      "15.6-15.7":"y",
+      "16.0":"y",
+      "16.1":"y",
+      "16.2":"y",
+      "16.3":"y",
+      "16.4":"y",
+      "16.5":"y",
+      "16.6":"y",
+      "17.0":"y",
+      "17.1":"y"
     },
     "op_mini":{
       "all":"n"
@@ -377,7 +517,7 @@
       "4.2-4.3":"n",
       "4.4":"n",
       "4.4.3-4.4.4":"n",
-      "93":"n"
+      "117":"y"
     },
     "bb":{
       "7":"n",
@@ -390,20 +530,20 @@
       "11.5":"n",
       "12":"n",
       "12.1":"n",
-      "64":"n"
+      "73":"y"
     },
     "and_chr":{
-      "93":"n"
+      "117":"y"
     },
     "and_ff":{
-      "92":"n"
+      "118":"y"
     },
     "ie_mob":{
       "10":"n",
       "11":"n"
     },
     "and_uc":{
-      "12.12":"n"
+      "15.5":"n"
     },
     "samsung":{
       "4":"n",
@@ -416,30 +556,39 @@
       "11.1-11.2":"n",
       "12.0":"n",
       "13.0":"n",
-      "14.0":"n"
+      "14.0":"n",
+      "15.0":"n",
+      "16.0":"n",
+      "17.0":"n",
+      "18.0":"n",
+      "19.0":"y",
+      "20":"y",
+      "21":"y",
+      "22":"y"
     },
     "and_qq":{
-      "10.4":"n"
+      "13.1":"n"
     },
     "baidu":{
-      "7.12":"n"
+      "13.18":"n"
     },
     "kaios":{
-      "2.5":"n"
+      "2.5":"n",
+      "3.0-3.1":"n"
     }
   },
   "notes":"",
   "notes_by_num":{
-    "1":"Chrome 86 requires the `--enable-blink-features=CSSFontMetricsOverride` flag"
+    
   },
-  "usage_perc_y":23.75,
+  "usage_perc_y":90.48,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",
-  "keywords":"font,font face,ascent,descent,line gap,override,metrics",
+  "keywords":"font-palette,palette,color,colr,cpal,color-font,fontface,webfonts",
   "ie_id":"",
-  "chrome_id":"5651198621253632",
+  "chrome_id":"5674031696052224",
   "firefox_id":"",
   "webkit_id":"",
-  "shown":false
+  "shown":true
 }

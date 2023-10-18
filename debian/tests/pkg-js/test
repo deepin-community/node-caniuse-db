@@ -1,0 +1,5 @@
+echo "Check if json files are well formed"
+set -e
+for f in features-json/*.json fulldata-json/*.json region-usage-json/*.json; do
+	jq .title $f
+done
