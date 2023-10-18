@@ -1,20 +1,24 @@
 {
-  "title":"text-underline-offset",
-  "description":"Property for setting text decoration offset distance from the original position.",
-  "spec":"https://drafts.csswg.org/css-text-decor-4/#underline-offset",
+  "title":"CSS @when / @else conditional rules",
+  "description":"Syntax allowing CSS conditions (like media and support queries) to be written more simply, as well as making it possible to write mutually exclusive rules using `@else` statements.",
+  "spec":"https://www.w3.org/TR/css-conditional-5/#when-rule",
   "status":"wd",
   "links":[
     {
-      "url":"https://developer.mozilla.org/en-US/docs/Web/CSS/text-underline-offset",
-      "title":"MDN Web Docs - text-underline-offset"
+      "url":"https://blog.logrocket.com/extending-css-when-else-chains-first-look/",
+      "title":"Blog post: Extending CSS when/else chains: A first look"
     },
     {
-      "url":"https://trac.webkit.org/changeset/237835/webkit/",
-      "title":"WebKit Timeline - Changeset 237835 - Parsing support for text-underline-offset"
+      "url":"https://bugs.chromium.org/p/chromium/issues/detail?id=1282896",
+      "title":"Chrome support bug"
     },
     {
-      "url":"https://trac.webkit.org/changeset/237903/webkit/",
-      "title":"WebKit Timeline - Changeset 237903 - Implement text-underline-offset"
+      "url":"https://bugzilla.mozilla.org/show_bug.cgi?id=1747727",
+      "title":"Firefox support bug"
+    },
+    {
+      "url":"https://bugs.webkit.org/show_bug.cgi?id=234701",
+      "title":"WebKit support bug"
     }
   ],
   "bugs":[
@@ -54,7 +58,31 @@
       "90":"n",
       "91":"n",
       "92":"n",
-      "93":"n"
+      "93":"n",
+      "94":"n",
+      "95":"n",
+      "96":"n",
+      "97":"n",
+      "98":"n",
+      "99":"n",
+      "100":"n",
+      "101":"n",
+      "102":"n",
+      "103":"n",
+      "104":"n",
+      "105":"n",
+      "106":"n",
+      "107":"n",
+      "108":"n",
+      "109":"n",
+      "110":"n",
+      "111":"n",
+      "112":"n",
+      "113":"n",
+      "114":"n",
+      "115":"n",
+      "116":"n",
+      "117":"n"
     },
     "firefox":{
       "2":"n",
@@ -126,32 +154,59 @@
       "66":"n",
       "67":"n",
       "68":"n",
-      "69":"n #1",
-      "70":"y",
-      "71":"y",
-      "72":"y",
-      "73":"y",
-      "74":"y",
-      "75":"y",
-      "76":"y",
-      "77":"y",
-      "78":"y",
-      "79":"y",
-      "80":"y",
-      "81":"y",
-      "82":"y",
-      "83":"y",
-      "84":"y",
-      "85":"y",
-      "86":"y",
-      "87":"y",
-      "88":"y",
-      "89":"y",
-      "90":"y",
-      "91":"y",
-      "92":"y",
-      "93":"y",
-      "94":"y"
+      "69":"n",
+      "70":"n",
+      "71":"n",
+      "72":"n",
+      "73":"n",
+      "74":"n",
+      "75":"n",
+      "76":"n",
+      "77":"n",
+      "78":"n",
+      "79":"n",
+      "80":"n",
+      "81":"n",
+      "82":"n",
+      "83":"n",
+      "84":"n",
+      "85":"n",
+      "86":"n",
+      "87":"n",
+      "88":"n",
+      "89":"n",
+      "90":"n",
+      "91":"n",
+      "92":"n",
+      "93":"n",
+      "94":"n",
+      "95":"n",
+      "96":"n",
+      "97":"n",
+      "98":"n",
+      "99":"n",
+      "100":"n",
+      "101":"n",
+      "102":"n",
+      "103":"n",
+      "104":"n",
+      "105":"n",
+      "106":"n",
+      "107":"n",
+      "108":"n",
+      "109":"n",
+      "110":"n",
+      "111":"n",
+      "112":"n",
+      "113":"n",
+      "114":"n",
+      "115":"n",
+      "116":"n",
+      "117":"n",
+      "118":"n",
+      "119":"n",
+      "120":"n",
+      "121":"n"
     },
     "chrome":{
       "4":"n",
@@ -245,7 +300,31 @@
       "93":"n",
       "94":"n",
       "95":"n",
-      "96":"n"
+      "96":"n",
+      "97":"n",
+      "98":"n",
+      "99":"n",
+      "100":"n",
+      "101":"n",
+      "102":"n",
+      "103":"n",
+      "104":"n",
+      "105":"n",
+      "106":"n",
+      "107":"n",
+      "108":"n",
+      "109":"n",
+      "110":"n",
+      "111":"n",
+      "112":"n",
+      "113":"n",
+      "114":"n",
+      "115":"n",
+      "116":"n",
+      "117":"n",
+      "118":"n",
+      "119":"n",
+      "120":"n"
     },
     "safari":{
       "3.1":"n",
@@ -265,13 +344,27 @@
       "11":"n",
       "11.1":"n",
       "12":"n",
-      "12.1":"y",
-      "13":"y",
-      "13.1":"y",
-      "14":"y",
-      "14.1":"y",
-      "15":"y",
-      "TP":"y"
+      "12.1":"n",
+      "13":"n",
+      "13.1":"n",
+      "14":"n",
+      "14.1":"n",
+      "15":"n",
+      "15.1":"n",
+      "15.2-15.3":"n",
+      "15.4":"n",
+      "15.5":"n",
+      "15.6":"n",
+      "16.0":"n",
+      "16.1":"n",
+      "16.2":"n",
+      "16.3":"n",
+      "16.4":"n",
+      "16.5":"n",
+      "16.6":"n",
+      "17.0":"n",
+      "17.1":"n",
+      "TP":"n"
     },
     "opera":{
       "9":"n",
@@ -346,7 +439,32 @@
       "75":"n",
       "76":"n",
       "77":"n",
-      "78":"n"
+      "78":"n",
+      "79":"n",
+      "80":"n",
+      "81":"n",
+      "82":"n",
+      "83":"n",
+      "84":"n",
+      "85":"n",
+      "86":"n",
+      "87":"n",
+      "88":"n",
+      "89":"n",
+      "90":"n",
+      "91":"n",
+      "92":"n",
+      "93":"n",
+      "94":"n",
+      "95":"n",
+      "96":"n",
+      "97":"n",
+      "98":"n",
+      "99":"n",
+      "100":"n",
+      "101":"n",
+      "102":"n",
+      "103":"n"
     },
     "ios_saf":{
       "3.2":"n",
@@ -363,14 +481,28 @@
       "10.3":"n",
       "11.0-11.2":"n",
       "11.3-11.4":"n",
-      "12.0-12.1":"y",
-      "12.2-12.4":"y",
-      "13.0-13.1":"y",
-      "13.2":"y",
-      "13.3":"y",
-      "13.4-13.7":"y",
-      "14.0-14.4":"y",
-      "14.5-14.7":"y"
+      "12.0-12.1":"n",
+      "12.2-12.5":"n",
+      "13.0-13.1":"n",
+      "13.2":"n",
+      "13.3":"n",
+      "13.4-13.7":"n",
+      "14.0-14.4":"n",
+      "14.5-14.8":"n",
+      "15.0-15.1":"n",
+      "15.2-15.3":"n",
+      "15.4":"n",
+      "15.5":"n",
+      "15.6-15.7":"n",
+      "16.0":"n",
+      "16.1":"n",
+      "16.2":"n",
+      "16.3":"n",
+      "16.4":"n",
+      "16.5":"n",
+      "16.6":"n",
+      "17.0":"n",
+      "17.1":"n"
     },
     "op_mini":{
       "all":"n"
@@ -385,7 +517,7 @@
       "4.2-4.3":"n",
       "4.4":"n",
       "4.4.3-4.4.4":"n",
-      "93":"n"
+      "117":"n"
     },
     "bb":{
       "7":"n",
@@ -398,20 +530,20 @@
       "11.5":"n",
       "12":"n",
       "12.1":"n",
-      "64":"n"
+      "73":"n"
     },
     "and_chr":{
-      "93":"n"
+      "117":"n"
     },
     "and_ff":{
-      "92":"n"
+      "118":"n"
     },
     "ie_mob":{
       "10":"n",
       "11":"n"
     },
     "and_uc":{
-      "12.12":"n"
+      "15.5":"n"
     },
     "samsung":{
       "4":"n",
@@ -424,30 +556,39 @@
       "11.1-11.2":"n",
       "12.0":"n",
       "13.0":"n",
-      "14.0":"n"
+      "14.0":"n",
+      "15.0":"n",
+      "16.0":"n",
+      "17.0":"n",
+      "18.0":"n",
+      "19.0":"n",
+      "20":"n",
+      "21":"n",
+      "22":"n"
     },
     "and_qq":{
-      "10.4":"n"
+      "13.1":"n"
     },
     "baidu":{
-      "7.12":"n"
+      "13.18":"n"
     },
     "kaios":{
-      "2.5":"n"
+      "2.5":"n",
+      "3.0-3.1":"n"
     }
   },
   "notes":"",
   "notes_by_num":{
-    "1":"Enabled in Firefox through the `layout.css.text-underline-offset.enabled` flag"
+    
   },
-  "usage_perc_y":20.34,
+  "usage_perc_y":0,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",
-  "keywords":"text-underline,text-underline-offset",
+  "keywords":"",
   "ie_id":"",
   "chrome_id":"",
   "firefox_id":"",
-  "webkit_id":"specification-css-text-decoration-level-4",
-  "shown":false
+  "webkit_id":"",
+  "shown":true
 }

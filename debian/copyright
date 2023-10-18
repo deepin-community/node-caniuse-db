@@ -2,6 +2,8 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: caniuse-db
 Upstream-Contact: https://github.com/Fyrd/caniuse/issues
 Source: https://github.com/Fyrd/caniuse
+Files-Excluded: error_log
+ *.png
 
 Files: *
 Copyright: 2017, Alexis Deveria <adeveria@gmail.com>

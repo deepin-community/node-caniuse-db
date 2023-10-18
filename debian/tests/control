@@ -1,2 +1,0 @@
-Test-Command: echo "No tests" && exit 77
-Restrictions: superficial, skippable
